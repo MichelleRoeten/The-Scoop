@@ -1,0 +1,220 @@
+users:
+  Breezy:
+    username: Breezy
+    articleIds:
+      - 5
+    commentIds:
+      - 4
+      - 9
+  Katrina:
+    username: Katrina
+    articleIds: []
+    commentIds:
+      - 3
+      - 8
+      - 12
+  Michelle:
+    username: Michelle
+    articleIds:
+      - 1
+      - 2
+      - 3
+    commentIds:
+      - 2
+      - 6
+      - 7
+  Daniel:
+    username: Daniel
+    articleIds:
+      - 4
+    commentIds:
+      - 1
+      - 5
+  Bank Robber:
+    username: Bank Robber
+    articleIds: []
+    commentIds:
+      - 10
+  Police Officer:
+    username: Police Officer
+    articleIds: []
+    commentIds:
+      - 11
+articles:
+  '1':
+    id: 1
+    title: Beacon Credit Union Robbery
+    url: >-
+      http://hudsonvalleynewsnetwork.com/2017/12/12/beacon-credit-union-robbery-suspect-still-large/
+    username: Michelle
+    commentIds:
+      - 8
+      - 9
+      - 10
+      - 11
+    upvotedBy: []
+    downvotedBy:
+      - Daniel
+      - Katrina
+    comments: []
+  '2':
+    id: 2
+    title: Chocolate Peppermint Cookie Recipe
+    url: 'https://minimalistbaker.com/chewy-double-chocolate-peppermint-cookies/'
+    username: Michelle
+    commentIds:
+      - 3
+      - 4
+      - 5
+      - 7
+    upvotedBy:
+      - Daniel
+    downvotedBy: []
+    comments:
+      - &ref_2
+        id: 3
+        body: >-
+          Too bad we kitties can't eat those.  They look good!  ...and they sure
+          smelled good when Mommy baked them the other day!
+        username: Katrina
+        articleId: 2
+        upvotedBy:
+          - Breezy
+          - Michelle
+        downvotedBy: []
+      - &ref_3
+        id: 4
+        body: >-
+          I'd rather she baked kitty treats, especially those new ones that she
+          bought the other day.
+        username: Breezy
+        articleId: 2
+        upvotedBy:
+          - Katrina
+        downvotedBy: []
+      - &ref_4
+        id: 5
+        body: >-
+          I ate six of them!  They were TOO good.  I shouldn't have eaten so
+          many, I'm trying to lose weight!  Man, they were good though.  Still,
+          I like her sugar cookies better.
+        username: Daniel
+        articleId: 2
+        upvotedBy: []
+        downvotedBy: []
+  '3':
+    id: 3
+    title: Fire Chief Rescue
+    url: >-
+      http://www.poughkeepsiejournal.com/story/news/local/southern-dutchess/2016/07/11/fire-chief-saves-man-attic-fire/86942584/
+    username: Michelle
+    commentIds:
+      - 1
+      - 2
+    upvotedBy:
+      - Katrina
+      - Breezy
+      - Daniel
+    downvotedBy: []
+    comments:
+      - &ref_0
+        id: 1
+        body: That's my boss!
+        username: Daniel
+        articleId: 3
+        upvotedBy:
+          - Daniel
+        downvotedBy: []
+      - &ref_1
+        id: 2
+        body: So in love!
+        username: Michelle
+        articleId: 3
+        upvotedBy: []
+        downvotedBy:
+          - Daniel
+  '4':
+    id: 4
+    title: EMS News
+    url: 'http://www.jems.com/news.html'
+    username: Daniel
+    commentIds:
+      - 6
+    upvotedBy:
+      - Michelle
+    downvotedBy: []
+    comments: []
+  '5':
+    id: 5
+    title: 6 Ways to Make Your Cat Happy
+    url: >-
+      http://www.catster.com/lifestyle/6-ways-to-make-your-cat-happy-behavior-health
+    username: Breezy
+    commentIds:
+      - 12
+    upvotedBy:
+      - Katrina
+    downvotedBy: []
+    comments: []
+nextArticleId: 6
+comments:
+  '1': *ref_0
+  '2': *ref_1
+  '3': *ref_2
+  '4': *ref_3
+  '5': *ref_4
+  '6':
+    id: 6
+    body: Many articles for the price of one...!
+    username: Michelle
+    articleId: 4
+    upvotedBy:
+      - Katrina
+    downvotedBy: []
+  '7':
+    id: 7
+    body: I ate 6 too...!
+    username: Michelle
+    articleId: 2
+    upvotedBy: []
+    downvotedBy: []
+  '8':
+    id: 8
+    body: Can't you post only fun news?
+    username: Katrina
+    articleId: 1
+    upvotedBy: []
+    downvotedBy: []
+  '9':
+    id: 9
+    body: I think I saw that guy....
+    username: Breezy
+    articleId: 1
+    upvotedBy: []
+    downvotedBy: []
+  '10':
+    id: 10
+    body: I'm in the money....!
+    username: Bank Robber
+    articleId: 1
+    upvotedBy: []
+    downvotedBy:
+      - Police Officer
+      - Michelle
+  '11':
+    id: 11
+    body: Not for long!!!
+    username: Police Officer
+    articleId: 1
+    upvotedBy:
+      - Michelle
+    downvotedBy:
+      - Bank Robber
+  '12':
+    id: 12
+    body: Hear Hear!!!
+    username: Katrina
+    articleId: 5
+    upvotedBy: []
+    downvotedBy: []
+nextCommentId: 13
